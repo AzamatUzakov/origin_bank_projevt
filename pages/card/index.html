@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script async src="/modules/poilce.js"></script>
+	<script async src="/modules/layout.js"></script>
+	<link rel="stylesheet" href="/scss/home.scss">
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<title>Document</title>
+</head>
+
+<body>
+	<header></header>
+	<main>
+		<div class="container">
+			<div class="wrapper">
+				<div class="card-box">
+					<div data-card3d="" data-card3d-reverse="true" class="item">
+						<p class="item-name"> Visa</p>
+						<p class="item-currency">RUB</p>
+					</div>
+					<div class="about-card">
+						<p>Дата создания: <span class="item-date"></span></p>
+						<p>Баланс: <span class="item-balance"></span></p>
+					</div>
+					<button id="convert" >CONVERT TO UZS</button>
+					<div class="about-card">
+						<p>Баланс: <span class="item-convert-balance"></span></p>
+					</div>
+				</div>
+
+				<div class="right">
+					<div class="chart">
+						<canvas id="multiChart"></canvas>
+					</div>
+				</div>
+			</div>
+			<div class="transaction">
+				<h2>Транзакции</h2>
+				<table></table>
+			</div>
+
+		</div>
+	</main>
+
+	<script type="module" src="index.js"></script>
+</body>
+
+</html>

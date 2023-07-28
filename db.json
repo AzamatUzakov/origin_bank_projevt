@@ -1,0 +1,275 @@
+{
+  "users": [
+    {
+      "id": "84a93dbe-1d01-4494-8c4c-719cd72990fa",
+      "email": "dsarifkulo021@gmail.com",
+      "name": "Daler",
+      "surname": "Sharifkulov",
+      "password": "1234Daler!"
+    },
+    {
+      "id": "a4a8f65a-d0d1-4d77-bfc4-35b2fb7aac94",
+      "email": "donik@gmail.com",
+      "name": "Doniyor",
+      "surname": "Adams",
+      "password": "1234Adams!"
+    },
+    {
+      "id": "923b510d-530a-4cd0-9a57-fc35c40f0836",
+      "email": "amka7787@gmail.com",
+      "name": "Amir",
+      "surname": "Sobirjonov",
+      "password": "asdgsd78"
+    },
+    {
+      "id": "186f684d-8098-4438-820d-910579191453",
+      "email": "full_stack_dev@gmail.com",
+      "name": "Programmer",
+      "surname": "Great",
+      "password": "987654321"
+    },
+    {
+      "id": "d6b10f67-9f07-4f1f-a643-457b2b054663",
+      "email": "azamat@gmail.com",
+      "name": "firuz",
+      "surname": "uzakov",
+      "password": "123456789"
+    }
+  ],
+  "cards": [
+    {
+      "id": "1",
+      "user_id": "f486bd9f-04d2-47e5-86b2-9fe16144d6c0",
+      "name": "Visa",
+      "balance": 10000,
+      "currency": "USD",
+      "date": "2020-01-01"
+    },
+    {
+      "id": "ec58e33c-8cc9-4ad7-9aa2-f67759b11dc3",
+      "user_id": "84a93dbe-1d01-4494-8c4c-719cd72990fa",
+      "date": "2023-07-24",
+      "name": "MASTERCARD",
+      "currency": "JPY",
+      "balance": "2222"
+    },
+    {
+      "id": "b1222f03-4605-4684-93f9-1e394fc4ca3d",
+      "user_id": "84a93dbe-1d01-4494-8c4c-719cd72990fa",
+      "date": "2023-07-24",
+      "name": "Daler",
+      "currency": "ANG",
+      "balance": 0
+    },
+    {
+      "id": "87d02458-9a22-4914-9842-a433e0b52399",
+      "user_id": "186f684d-8098-4438-820d-910579191453",
+      "date": "2023-07-26",
+      "name": "MasterCard",
+      "currency": "USD",
+      "balance": 9999899
+    },
+    {
+      "id": "e1900bca-ef11-4096-b4d8-53e8c945eecf",
+      "user_id": 4,
+      "date": "2023-07-28",
+      "name": "azamat",
+      "currency": "ALL",
+      "balance": "151515"
+    },
+    {
+      "id": "f4e2f553-cb85-4fb9-a653-92f73fd12fb7",
+      "user_id": "d6b10f67-9f07-4f1f-a643-457b2b054663",
+      "date": "2023-07-28",
+      "name": "azamat55",
+      "currency": "AFN",
+      "balance": 11404000000000
+    },
+    {
+      "id": "1c79c623-afac-41e1-84a8-9c46869ad3ca",
+      "user_id": "d6b10f67-9f07-4f1f-a643-457b2b054663",
+      "date": "2023-07-28",
+      "name": "muhammad",
+      "currency": "USD",
+      "balance": 38
+    }
+  ],
+  "transactions": [
+    {
+      "id": "f21edb34-fc8d-4a9f-9b90-ff29082c10e5",
+      "user_id": "186f684d-8098-4438-820d-910579191453",
+      "date": "2023-07-26",
+      "wallet": {
+        "id": "87d02458-9a22-4914-9842-a433e0b52399",
+        "user_id": "186f684d-8098-4438-820d-910579191453",
+        "date": "2023-07-26",
+        "name": "MasterCard",
+        "currency": "USD",
+        "balance": 9999999
+      },
+      "total": 100,
+      "category": "buy home",
+      "wallet_id": "87d02458-9a22-4914-9842-a433e0b52399"
+    },
+    {
+      "id": "abdb775a-b338-4a26-9884-bee77ac62278",
+      "user_id": "84a93dbe-1d01-4494-8c4c-719cd72990fa",
+      "date": "2023-07-26",
+      "wallet": {
+        "id": "b1222f03-4605-4684-93f9-1e394fc4ca3d",
+        "user_id": "84a93dbe-1d01-4494-8c4c-719cd72990fa",
+        "date": "2023-07-24",
+        "name": "Daler",
+        "currency": "ANG",
+        "balance": "2222"
+      },
+      "total": 1000,
+      "category": "car",
+      "wallet_id": "b1222f03-4605-4684-93f9-1e394fc4ca3d"
+    },
+    {
+      "id": "2e84a5a7-b2d7-45c0-9e75-04fca58fd817",
+      "user_id": "84a93dbe-1d01-4494-8c4c-719cd72990fa",
+      "date": "2023-07-26",
+      "wallet": {
+        "id": "b1222f03-4605-4684-93f9-1e394fc4ca3d",
+        "user_id": "84a93dbe-1d01-4494-8c4c-719cd72990fa",
+        "date": "2023-07-24",
+        "name": "Daler",
+        "currency": "ANG",
+        "balance": "2222"
+      },
+      "total": 1000,
+      "category": "food",
+      "wallet_id": "b1222f03-4605-4684-93f9-1e394fc4ca3d"
+    },
+    {
+      "id": "5b3413f2-e3f1-4a9f-81c9-3bc0c31e2de6",
+      "user_id": "84a93dbe-1d01-4494-8c4c-719cd72990fa",
+      "date": "2023-07-26",
+      "wallet": {
+        "id": "b1222f03-4605-4684-93f9-1e394fc4ca3d",
+        "user_id": "84a93dbe-1d01-4494-8c4c-719cd72990fa",
+        "date": "2023-07-24",
+        "name": "Daler",
+        "currency": "ANG",
+        "balance": 1222
+      },
+      "total": 222,
+      "category": "car",
+      "wallet_id": "b1222f03-4605-4684-93f9-1e394fc4ca3d"
+    },
+    {
+      "id": "28a1154a-2282-40d7-a5e4-77d1b98ebc2b",
+      "user_id": "84a93dbe-1d01-4494-8c4c-719cd72990fa",
+      "date": "2023-07-26",
+      "wallet": {
+        "id": "b1222f03-4605-4684-93f9-1e394fc4ca3d",
+        "user_id": "84a93dbe-1d01-4494-8c4c-719cd72990fa",
+        "date": "2023-07-24",
+        "name": "Daler",
+        "currency": "ANG",
+        "balance": 1000
+      },
+      "total": 700,
+      "category": "good",
+      "wallet_id": "b1222f03-4605-4684-93f9-1e394fc4ca3d"
+    },
+    {
+      "id": "438c322a-c8e8-4d4f-be57-aade82b8514c",
+      "user_id": "84a93dbe-1d01-4494-8c4c-719cd72990fa",
+      "date": "2023-07-26",
+      "wallet": {
+        "id": "ec58e33c-8cc9-4ad7-9aa2-f67759b11dc3",
+        "user_id": "84a93dbe-1d01-4494-8c4c-719cd72990fa",
+        "date": "2023-07-24",
+        "name": "MASTERCARD",
+        "currency": "JPY",
+        "balance": "2222"
+      },
+      "total": 1222,
+      "category": "Tillar",
+      "wallet_id": "ec58e33c-8cc9-4ad7-9aa2-f67759b11dc3"
+    },
+    {
+      "id": "536b7831-3588-49ee-8db2-718caa2b63fb",
+      "user_id": "84a93dbe-1d01-4494-8c4c-719cd72990fa",
+      "date": "2023-07-26",
+      "wallet": {
+        "id": "b1222f03-4605-4684-93f9-1e394fc4ca3d",
+        "user_id": "84a93dbe-1d01-4494-8c4c-719cd72990fa",
+        "date": "2023-07-24",
+        "name": "Daler",
+        "currency": "ANG",
+        "balance": 300
+      },
+      "total": 150,
+      "category": "food",
+      "wallet_id": "b1222f03-4605-4684-93f9-1e394fc4ca3d"
+    },
+    {
+      "id": "01fa0f73-8ca3-4828-bfaf-e76336b5c497",
+      "user_id": "84a93dbe-1d01-4494-8c4c-719cd72990fa",
+      "date": "2023-07-26",
+      "wallet": {
+        "id": "b1222f03-4605-4684-93f9-1e394fc4ca3d",
+        "user_id": "84a93dbe-1d01-4494-8c4c-719cd72990fa",
+        "date": "2023-07-24",
+        "name": "Daler",
+        "currency": "ANG",
+        "balance": 150
+      },
+      "total": 150,
+      "category": "home",
+      "wallet_id": "b1222f03-4605-4684-93f9-1e394fc4ca3d"
+    },
+    {
+      "id": "5381a123-5b17-4004-9477-e0766dc18b01",
+      "user_id": "d6b10f67-9f07-4f1f-a643-457b2b054663",
+      "date": "2023-07-28",
+      "wallet": {
+        "id": "f4e2f553-cb85-4fb9-a653-92f73fd12fb7",
+        "user_id": "d6b10f67-9f07-4f1f-a643-457b2b054663",
+        "date": "2023-07-28",
+        "name": "azamat55",
+        "currency": "AFN",
+        "balance": "11555555555555"
+      },
+      "total": 151555555555,
+      "category": "kayf",
+      "wallet_id": "f4e2f553-cb85-4fb9-a653-92f73fd12fb7"
+    },
+    {
+      "id": "10b8b5e4-1aef-4879-ad33-1ea4262c7d50",
+      "user_id": "d6b10f67-9f07-4f1f-a643-457b2b054663",
+      "date": "2023-07-28",
+      "wallet": {
+        "id": "1c79c623-afac-41e1-84a8-9c46869ad3ca",
+        "user_id": "d6b10f67-9f07-4f1f-a643-457b2b054663",
+        "date": "2023-07-28",
+        "name": "muhammad",
+        "currency": "USD",
+        "balance": "150"
+      },
+      "total": 100,
+      "category": "dangiri",
+      "wallet_id": "1c79c623-afac-41e1-84a8-9c46869ad3ca"
+    },
+    {
+      "id": "a75a1ba3-20f8-4dc9-bfd5-2daca949d0eb",
+      "user_id": "d6b10f67-9f07-4f1f-a643-457b2b054663",
+      "date": "2023-07-28",
+      "wallet": {
+        "id": "1c79c623-afac-41e1-84a8-9c46869ad3ca",
+        "user_id": "d6b10f67-9f07-4f1f-a643-457b2b054663",
+        "date": "2023-07-28",
+        "name": "muhammad",
+        "currency": "USD",
+        "balance": 50
+      },
+      "total": 12,
+      "category": "km",
+      "wallet_id": "1c79c623-afac-41e1-84a8-9c46869ad3ca"
+    }
+  ]
+}

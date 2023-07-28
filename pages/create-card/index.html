@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/scss/style.scss">
+	<script async src="/modules/poilce.js"></script>
+
+	<title>Добавить карту</title>
+</head>
+
+<body>
+
+	<div class="container">
+		<a class="back" href="/pages/wallets/">
+			<img src="/public/back.svg" alt="back">
+		</a>
+		<h1>Добавить кошелёк</h1>
+		<form name="create_card" action="#">
+			<input required name="name" placeholder="Имя" type="text">
+			<!-- <select required name="currency"></select> -->
+			<input type="text" name="currency" id="currency" list="currency-list" >
+			<datalist id="currency-list" >
+
+			</datalist>
+			<input name="balance" placeholder="Баланс" type="number">
+			<button class="btn" type="submit">Добавить</button>
+		</form>
+	</div>
+	<script type="module" src="index.js"></script>
+</body>
+
+</html>
